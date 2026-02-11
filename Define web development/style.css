@@ -1,0 +1,137 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(to right, #f4f7fa, #e8eef5);
+    padding: 40px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* MAIN TITLE */
+h1 {
+    background: #1e3c72;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin-bottom: 30px;
+}
+
+/* SECTION HEADINGS */
+h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-left: 5px solid #2a5298;
+    color: #1e3c72;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2a5298;
+}
+
+/* PARAGRAPH STYLE */
+p {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+}
+
+/* LIST STYLING */
+ul, ol {
+    background: #ffffff;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* LIST ITEMS */
+li {
+    margin-bottom: 8px;
+}
+
+/* DEFINITION LIST */
+dl {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+dt {
+    font-weight: bold;
+    color: #1e3c72;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* HR */
+hr {
+    margin: 30px 0;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #2a5298, transparent);
+}
+
+/* NAVIGATION EFFECT (auto style first h2 section like nav) */
+h2:first-of-type {
+    margin-top: 0;
+}
+
+/* DIGITAL BOOK CARD EFFECT */
+body > * {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SIDEBAR EFFECT SIMULATION */
+@media (min-width: 1100px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1, hr {
+        width: 100%;
+        max-width: 1100px;
+    }
+
+    p, ul, ol, dl, h2, h3 {
+        width: 100%;
+        max-width: 900px;
+    }
+}
+
+/* HOVER EFFECT FOR LIST */
+li:hover {
+    color: #2a5298;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* FOOTER */
+h3[align="center"] {
+    margin-top: 50px;
+    padding: 20px;
+    background: #1e3c72;
+    color: white;
+    border-radius: 8px;
+}
