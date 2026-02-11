@@ -63,7 +63,7 @@ HTML Concepts Used:
 
 Technologies Used:
 - HTML
-- CSS (Digital Book Design)(simpe)
+- CSS (Digital Book Design)(simpe) 
 
 Purpose of This Repository
 
@@ -76,7 +76,4 @@ This project was created to:
 - Build clean structured web pages
 - Prepare for Full Stack Development journey
 
- How to Run the Projects
- Download or Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+ 
